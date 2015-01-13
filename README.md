@@ -1,6 +1,6 @@
 #  [![Build Status](https://secure.travis-ci.org/agavish/gulp-apidoc-to-markdown.png?branch=master)](http://travis-ci.org/agavish/gulp-apidoc-to-markdown)
 
-> gulp-apidoc-markdown
+###gulp-apidoc-markdown
 
 
 ## Getting Started
