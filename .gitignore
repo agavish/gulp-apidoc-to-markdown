@@ -2,3 +2,6 @@
 coverage/
 .idea/
 null
+.DS_Store
+.git
+npm-debug.log
