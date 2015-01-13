@@ -15,12 +15,6 @@ gulp.task('apidoc-to-markdown', function(){
 });
 ```
 
-Install with cli command
-
-```sh
-$ npm install -g gulp-apidoc-markdown
-```
-
 ## Documentation
 
 _(Coming soon)_
