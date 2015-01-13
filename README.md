@@ -8,7 +8,7 @@
 Install the module with: `npm install gulp-apidoc-markdown`
 
 ```js
-var gulp-apidoc-markdown = require('gulp-apidoc-markdown');
+var apidoc2md = require('gulp-apidoc-markdown');
 
 gulp.task('apidoc-to-markdown', function(){
     apidoc2md.generate(process.cwd() + "/docs/", process.cwd() + "/docs/test.md");
