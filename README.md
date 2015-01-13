@@ -1,4 +1,4 @@
-#  [![Build Status](https://secure.travis-ci.org/agavish/gulp-apidoc-markdown.png?branch=master)](http://travis-ci.org/agavish/gulp-apidoc-markdown)
+#  [![Build Status](https://secure.travis-ci.org/agavish/gulp-apidoc-to-markdown.png?branch=master)](http://travis-ci.org/agavish/gulp-apidoc-to-markdown)
 
 > gulp-apidoc-markdown
 
