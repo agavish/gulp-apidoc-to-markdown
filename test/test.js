@@ -6,7 +6,7 @@ var path = require('path');
 var apidoc = require('gulp-apidoc');
 var fs = require('fs-extra');
 
-describe('gulp-apidoc-markdown tests', function () {
+describe('gulp-apidoc-to-markdown tests', function () {
     it('create apidoc-markdown test', function (done) {
 
         var apiDocInput = __dirname;
