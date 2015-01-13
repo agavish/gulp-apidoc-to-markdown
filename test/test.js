@@ -1,7 +1,7 @@
 /*global describe,it*/
 'use strict';
 
-var gulpApidoc2md = require('../lib/gulp-apidoc-markdown');
+var gulpApidoc2md = require('../lib/gulp-apidoc-to-markdown');
 var path = require('path');
 var apidoc = require('gulp-apidoc');
 var fs = require('fs-extra');

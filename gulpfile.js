@@ -5,7 +5,7 @@ var gulp = require('gulp')
     , istanbul = require('gulp-istanbul');
 
 gulp.task('test', function (cb) {
-    gulp.src('./lib/gulp-apidoc-markdown.js')
+    gulp.src('./lib/gulp-apidoc-to-markdown.js')
         .pipe(istanbul()) // Covering files
         .pipe(istanbul.hookRequire()) // Force `require` to return covered files
         .on('finish', function () {
