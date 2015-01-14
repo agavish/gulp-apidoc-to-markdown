@@ -1,7 +1,7 @@
 {
   "name": "gulp-apidoc-to-markdown",
   "author": "Adam Gavish <agavish@gmail.com>",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "gulp-apidoc-to-markdown",
   "repository": "https://github.com/agavish/gulp-apidoc-to-markdown.git",
   "main": "./lib/gulp-apidoc-to-markdown.js",
