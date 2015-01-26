@@ -16,7 +16,9 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "gulp test"
+  },
   "devDependencies": {
     "fs-extra": "^0.14.0",
     "gulp-apidoc": "^0.1.2",
