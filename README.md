@@ -5,7 +5,7 @@
 
 ## Getting Started
 
-Install the module with: `npm install gulp-apidoc-markdown`
+Install the module with: `npm install gulp-apidoc-to-markdown`
 
 ```js
 var apidoc2md = require('gulp-apidoc-markdown');
