@@ -5,14 +5,29 @@
 
 ## Getting Started
 
-Install the module with: `npm install gulp-apidoc-to-markdown`
+Install the module with: `npm install gulp-apidoc-to-markdown` .
+
+Apidoc files need to be generated first, namely "api_data.json" and "api_project.json" .
+
+The example below is based on your sources being written to the "app" folder, and your standard apidoc files being written to the "public/apidoc" folder
 
 ```js
-var apidoc2md = require('gulp-apidoc-markdown');
+var apidoc = require('gulp-apidoc'),
+    apidoc2md = require('gulp-apidoc-to-markdown');
 
-gulp.task('apidoc-to-markdown', function(){
-    apidoc2md.generate(process.cwd() + "/docs/", process.cwd() + "/docs/test.md");
+gulp.task('apidoc-to-markdown-only', function(){
+    apidoc2md.generate(process.cwd() + "/public/apidoc", process.cwd() + "/public/apidoc/apidoc.md");
 });
+
+gulp.task('apidoc', function(){
+    apidoc({
+        src: "app/",
+        dest: "public/apidoc/",
+        debug: false,
+    },done);
+});
+
+gulp.task('apidoc-md', ['apidoc', 'apidoc-to-markdown-only']);
 ```
 
 ## Documentation
